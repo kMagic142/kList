@@ -1,0 +1,23 @@
+hide-empty-servers: false
+blacklisted-servers: []
+uppercase-server-names: false
+
+no-servers-format: " &cNicio sectiune nu este populata."
+
+format:
+  server-row-format: " &6{SERVER_NAME} &8(&e{PLAYER_AMOUNT}&8) &8{GRAPHIC_BAR} &8(&6{PERCENT}&8)"
+  bar-background-color: '&8&l'
+  progress-colors:
+    25: '&f&l'
+    50: '&e&l'
+    75: '&6&l'
+    99: '&c&l'
+    100: '&4&l'
+    default: '&b&l'
+  full-message-format:
+    - " &e&lLista tuturor sectiunilor"
+    - ""
+    - "{SERVERS_ROWS}"
+    - ""
+    - " &eEsti alaturi de &6{TOTAL_PLAYER_AMOUNT}&e jucatori!"
+    - ""

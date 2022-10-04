@@ -1,0 +1,7 @@
+name: kList
+version: ${project.version}
+main: ro.kmagic.klist.kList
+author: kMagic
+description: Plugin used as a replacement for the default glist command
+softdepends:
+  - PremiumVanish
